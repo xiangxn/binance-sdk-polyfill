@@ -1,0 +1,5 @@
+import './polyfills.js';
+import BinanceW3WProvider, { getProvider } from '@binance/w3w-ethereum-provider';
+
+window.BinanceW3WProvider = BinanceW3WProvider;
+window.getBinanceProvider = getProvider;
