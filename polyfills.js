@@ -3,4 +3,4 @@ import process from 'process';
 
 window.global = window;
 window.Buffer = Buffer;
-window.process = process;
+// window.process = process;
